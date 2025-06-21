@@ -84,4 +84,4 @@
 #     print("Your Can Vote")
 #     print("Thank You")
 
-# Task 6 
+# Task 6  This Is For Percentage Based Condition
