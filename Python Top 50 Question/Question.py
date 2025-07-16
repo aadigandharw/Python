@@ -88,15 +88,18 @@
 # if(number<0):
 #     print("Negative Number Is Not A Prime Number")
 
+# elif number ==1:
+#     print("Number Is Not A Prime Number")
+
 # else:
 #     for i in range (2,number):
 #         k = number;
 #         if k % i ==0:
-#             print (f"{number}Not A Prime Number")
+#             print (f"{number} Is Not A Prime Number")
 #             break
-#         else:
-#             print(f"{number} Is A Prime Number")
-#             break
+#     else:
+#         print(f"{number} Is A Prime Number")
+            
         
     
 
@@ -152,7 +155,7 @@
 
 
 
-# Question No. 13. Find the factorial of a number using a for loop.
+# Question No. 13. Find the factorial of a number using a for loop. 
 
 # n = int (input("Enter Your Number:"))
 
@@ -162,7 +165,7 @@
 #     ans = 1
 #     for i in range(1,n+1):
 #         ans= ans * i
-#         print("Your Factorial is ",ans)
+# print("Your Factorial is ",ans)
 
 
 # Question No- 14. Check if two strings are anagrams.
@@ -282,31 +285,405 @@
 # l1 = [10,20,11,40,15,14,71,12,13,50]
 # len_l1 = len(l1)
 # l2 = []
-# for i in range (0,len_l1):
-#     for j in range (0,len_l1):
 
+# for i in range(len_l1):
+#     for j in range (1,len_l1):
 #         if l1[i] > l1[j]:
-#             l1[i] ,l1[j] = l1[j] , l1[i]
+#             l2.append(l1[j])
+#             break
+            
+#         else:
+#             l2.append(l1[i])
+#             break
+# print(l1)
 
 
 # print(l2)
 
 # Question 23. Count how many times an element appears in a list.
 
-l1 = [10,20,11,40,15,14,71,12,13,50]
-length = len(l1)
-count =0
+# l1 = [10,20,11,40,15,14,71,12,13,50]
+# length = len(l1)
+# count =0
 
-Element = int(input("Enter A Element That You Want To Check:"))
+# Element = int(input("Enter A Element That You Want To Check:"))
 
-for i in range (0,length):
-    if Element == l1[i]:
-        count = count+1
+# for i in range (0,length):
+#     if Element == l1[i]:
+#         count = count+1
 
-print(f"{Element} is  {count} time In List")
+# print(f"{Element} is  {count} time In List")
 
 
 # Question 24 merge two dictionaries.
+
+# dic_1 = {1:'a',2:'b'}
+
+# dic_2 = {3:'c',4:'d'}
+
+# dic_1.update(dic_2)
+
+# print("Merge Dictionary Is ",dic_1)
+
+
+# Question 25. Find the length of a string without using len().
+
+# str1 = "Vikash Yadusir"
+
+# str1 = str1.lower()
+# count=0
+
+# for i in str1:
+#     count = count+1
+# print ("Length Of The String Is" , count)
+
+
+# Question 26. Replace all spaces in a string with hyphens.
+
+# str1 = "Vikash  sir Python Ki Class loh"
+
+# str1 = str1.replace(" ","-")
+
+# print(str1)
+
+
+#Question  27. Find the smallest number in a list.
+
+# l1 = [10,20,2,11,40,15,14,71,12,13,50]
+
+# l1.sort()
+
+# print("Smallest Number Is :",l1[0])
+
+# Question 28. Check if a number is a perfect square.
+
+# number = int(input("Enter A Number: "))
+
+# for i in range(number):
+#     if i*i == number:
+#         a = "Is Perfect Square!!!"
+#         break
+#     else:
+#         a = "Is Not Perfect Square!!!"
+
+# print(number,a)
+
+# Question 29. Find the sum of all even numbers in a list.
+
+# l1 = [10,20,2,11,40,15,14,71,12,13,50]
+# sum1=0
+
+# for i in l1:
+#     if i%2==0:
+#         sum1 = sum1+i
+# print("Sum Of All Even Number Is:" , sum1)
+
+
+# Question 30. Find the product of all numbers in a list.
+
+# l1 = [10,20,2,11,40,15,14,71,12,13,50]
+
+# sum1=1
+
+# for i in l1:
+    
+#         sum1 = sum1*i
+# print("Product Of All Numbers In A list:" , sum1)
+
+# Question 31. Swap two variables without using a third variable.
+
+# a = int(input("Enter Your First Number:"))
+# b = int(input("Enter Your Second Number:"))
+
+# print("Before Swap!!!")
+# print("Your First Number is :",a)
+# print("Your Second Number is :",b)
+
+# a , b = b , a
+
+# print("After Swap!!!")
+# print("Your First Number is :",a)
+# print("Your Second Number is :",b)
+
+# # Question 32. Print Fibonacci series up to n terms. Nahiiiii Bnaaaaa 
+
+# Sequence = int(input("Enter A Number :"))
+
+# f0 = 0
+# f1 = 1
+# n = 0
+
+# for i in range(Sequence):
+#     n = (f0-1)+(f1-2)
+#     print(n)
+
+# Question 33. Find the GCD of two numbers. 
+
+# Yeh Question Nahi Bnaaaaaaa
+
+
+# Question 34. Count the number of words in a string.
+
+# str1 = "Vikash  sir Python Ki Class lohh"
+
+# length = len(str1)
+
+# for i in str1:
+#     if i == " ":
+#         length = length-1
+    
+# print("Number Of Words In String Is:",length)
+
+# Question 35. Extract all digits from a string.
+
+
+# str1 = "Vikash 5sir 4Pyth1on Ki 6Cl8as7s lohh"
+
+# str2 = []
+# for i in str1:
+#     if i == "0" or i =="1" or i == "2" or i == "3" or i == "4" or i == "5" or i == "6" or i == "7" or i == "8" or i == "9":
+#         str2.append(i)
+
+# print("All Digit From A String Is:",str2)
+
+
+
+# Question 36. Remove all vowels from a string.
+
+# str1 = "Vikash 5sir 4Pyth1on Ki 6Cl8as7s lohh"
+
+# str1 = str1.lower()
+
+# list1 = list(str1)
+
+# for i in list1:
+
+#     if i == 'a' or i == 'e' or i == 'i' or i=='o' or i =='u':
+#         list1.remove(i)
+
+# list1 = str(list1)
+
+# print((list1))
+
+
+# Question 37. Print numbers divisible by 3 and 5 between 1 to 100
+
+# for i in range(1,101):
+#     if i % 3 ==0 and i % 5 == 0:
+#         print ("Number Which Is Divisible by 3 and 5 is :",i)
+
+
+# Question 38. Convert a number into binary without using bin()
+
+# Number = int (input("Enter A Number :"))
+
+# rem = 0 
+# l1 = []
+
+# while(Number):
+#     rem = Number%2
+#     Number = Number //2
+#     l1.append(rem)
+
+# count = len(l1)
+
+# l2 =[]
+
+# for i in range(count):
+#     l2.append(l1[(count-1)-i])
+
+
+# print(l2)
+
+
+
+# Question 39. Reverse a list using a for loop.
+
+# l1 = [10,20,2,11,40,15,14,71,12,13,50]
+
+# l2 = []
+
+# length = len(l1)-1
+
+# for i in range(length+1):
+
+#     l2.append(l1[length])
+#     length=length-1
+
+# print(l2)
+
+
+# Question 40: Find the most frequent element in a list.
+
+# l1 = [10,20,2,11,40,15,14,71,12,13,50,10,10] 
+
+# element = int(input("Enter A Element To Find Frequency in List:"))
+# frequency = 0
+
+# for i in l1:
+#     if i == element:
+#         frequency = frequency +1
+
+# print("Frequency In Element Is :",frequency)
+
+
+# Question 41. Find all prime numbers in a given range. Question This Sehhhh Nahiii Bnaaaaa Bhaiiiii
+
+
+# number = int (input("Enter A Range To Get All Prime Number: "))
+
+# if number < 0:
+#     print("Negative Number Is Not A Prime Number!!!!")
+# else:
+#     for i in range(2,number+1):
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#             else:
+#                 print(i)
+#                 break
+            
+
+
+
+# Question 42. Print the multiplication table of a number
+
+# Number = int(input("Enter A Number :"))
+
+# for i in range(1,11):
+#     print(i*Number)
+
+# Question 43. Check if a list is sorted or not.
+
+
+# l1 = [10,11,13,14,20,26,32,72,50,]
+
+# length = len(l1)
+
+# for i in range(length-1):
+    
+#     if l1[i] <= l1[i+1]:
+#         a = "List Is Sorted"
+#     else:
+#         a = "List Is Not Sorted"
+#         break
+# print(a)
+
+
+# Question 44. Create a list of squares from 1 to n.
+
+# number = int(input("Enter A Number:"))
+
+# l1 =[]
+
+# for i in range(1,number+1):
+#     print(i**2)
+
+
+
+# 45. Find all palindromes in a list of strings.  Question Thik Seh Nahi Bnaaaa
+
+
+# str1 = "Navin"
+
+# count= len(str1)
+# list1 = list(str1)
+# list2 = []
+
+
+# str1 = str1.lower()
+
+# for i in list1:
+#     list2 = 
+
+
+# Question 46. Count how many uppercase and lowercase letters in a string.
+
+
+
+# str1 = "Vikash  sir Python Ki Class lohh"
+
+# upper = 0 
+# lower = 0
+# a,b = 0,0
+
+# for i in str1:
+#     if i =='a' or i =='b' or i =='c' or i =='d' or i =='e' or i =='f' or i =="g" or i=="h" or i =='i' or i =='j' or i =='k' or i =='l' or i =='m' or i =='n' or i =='o' or i =='p' or i =='q' or i =='r' or i =='s' or i =='t' or i =='u' or i =='v' or i =='w' or i =='x' or i =='y' or i =='z' :
+#         a = a+1
+
+#     elif i =='A' or i =='B' or i =='C' or i =='D' or i =='E' or i =='F' or i =='G' or i =='H' or i =='I' or i =='J' or i =='K' or i =='L' or i =='M' or i =='N' or i =='O' or i =='P' or i =='Q' or i =='R' or i =='S' or i =='T' or i =='U' or i =='V' or i =='W' or i =='X' or i =='Y' or i =='Z' :
+#         b = b +1
+
+# print(f"Lower Case in A String is {a} & Upper Case In A String {b} ")
+
+
+
+
+
+
+# Question 47. Remove punctuation from a string Thik Seh Nahi Bna Hai
+
+# str1 = "vikash ./';:'';,#/*/^&*($#*@#!!!)sir Python Ki Class loh"
+# str1=list(str1)
+
+# for i in str1:
+#     if i=="." or i == "/" or i=="!" or i ==";" or i==":" or i == "(" or i==")" or i =="@" or i =="#" or i =="*" or i=="$" or i=="&" or i=="v" or i =="i" or i == ' ' :
+#         str1.remove(i)
+
+# print(str1)
+
+
+# Question 48. Create a dictionary with number and its square from 1 to n.
+
+
+
+# Number = int (input("Enter A Number:"))
+
+# Dictionary = {}
+
+# for i in range (1,Number+1):
+#     Dictionary[i] =i**2
+
+# print(Dictionary)
+
+
+
+# Question 49. Find the average of numbers in a list.
+
+
+# l1 = [10,20,2,11,40,15,14,71,12,13,50,10,10] 
+
+# count = len(l1)
+
+# avg=0
+
+# for i in l1:
+#     avg = i+avg;
+# print("Avg Of Element in A list:",avg/count)
+
+
+
+
+
+
+
+
+
+# Question  50. Split a string into a list of words.
+
+# str1 = "Vikash  sir Python Ki Class loh"
+# print(str1.split())
+
+
+
+
+
+
+
+
+
+
+
 
 
 

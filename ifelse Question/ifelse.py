@@ -48,6 +48,8 @@
 # else:
 #     print(f"Your Third Number {number3} Is Greater")
 
+
+
 # Task 4 :Check whether a year is a leap year.
 
 # Year=int(input("Enter Year:"))
@@ -74,7 +76,7 @@
 
 
 
-# Task-5 :Check if a person is eligible to vote.
+# Task-6 :Check if a person is eligible to vote.
 
 # Age = int(input("Enter Your Age :"))
 # if (Age<0):
@@ -88,7 +90,7 @@
 #     print("Thank You")
 
 
-# Task 6  Find grade based on percentage.
+# Task 7  Find grade based on percentage.
 # percentage = int(input("Enter Your Percentage :"))
 
 # if(percentage >100):
@@ -108,7 +110,7 @@
 
 
 
-# Task-7 Check if a number is divisible by 5 and 11.
+# Task-8 Check if a number is divisible by 5 and 11.
 
 # number = int(input("Enter Your Number :"))
 
@@ -118,7 +120,7 @@
 # else :
 #     print("Your Number Is Not Divisible By 5 and 11")
 
-# Task-8 Check if the angles form a valid triangle.
+# Task-9 Check if the angles form a valid triangle.
 
 # Angel1 = int(input("Enter Your first Angel: "))
 # Angel2 = int(input("Enter Your Second Angel: "))
@@ -131,7 +133,7 @@
 #     print("Your Angel Are Invalid!!!")
 
 
-#Task -9 Check if a number is an Armstrong number.Using While Loop;
+#Task -10 Check if a number is an Armstrong number.Using While Loop;
 
 
 # number = int(input("Enter The Value :"))
@@ -148,15 +150,114 @@
 
 # Using For Loop
 
-number = int (input("Enter A Number : "))
-str_number = str(number)
-count = len(str_number)
-r= 0;
-for i in str_number:
-    r = r + (int(i) ** count);
+# number = int (input("Enter A Number : "))
+# str_number = str(number)
+# count = len(str_number)
+# r= 0;
+# for i in str_number:
+#     r = r + (int(i) ** count);
 
-print(r);
-
-
+# print(r);
 
 
+# # Task-11 Check if a number is a multiple of 3 or 7.
+
+# Number = int(input("Enter A Number :"))
+
+# if (Number % 3 ==0 or Number % 7 == 0):
+#     print("Yes Number Is Reminder Of 3 Or 7")
+# else:
+#     print("No is Not A Reminder Of 3 Or 7")
+
+
+
+# Task-12 Find the type of triangle (Equilateral, Isosceles, Scalene).
+
+# Side1 = int(input("Enter The Length Of First Side:"))
+# Side2 = int(input("Enter The Length Of Second Side:"))
+# Side3 = int(input("Enter The Length Of Third Side:"))
+
+# if Side1 == Side2 == Side3:
+#     print("Tri-Angle Is Equilateral")
+
+# elif Side1 == Side2 != Side3 or Side1 != Side2 == Side3 or Side1 == Side3 !=Side2:
+#     print ( "Tri-Angle Is Isosceles" )
+
+# elif Side1 != Side2 != Side3:
+#     print("Tri-Angle Is Scalene") 
+
+
+
+# Task-13 Create a simple calculator using conditional statements.
+
+# First = int(input("Enter A First Number:"))
+# Second = int(input("Enter A Second Number:"))
+
+# Operation = input("Choose Operation ( + , - , * ,/): ")
+
+# if Operation == '+':
+#     print("Your Answer Is :" ,First + Second)
+# elif Operation =='-':
+#     print("Your Answer Is :",First-Second)
+# elif Operation =='*':
+#     print("Your Answer Is :",First*Second)
+# else:
+#     print("Your Answer Is :",First/Second)
+
+
+# Question 14. Check if a number is prime.
+
+# Number = int(input("Enter A Number :"))
+
+# if Number <0:
+#     print("Negative Number Is Not A Prime Number")
+
+# else:
+#     for i in range (2,Number):
+#         if Number % i == 0:
+#             a = "Not A Prime Number!!!!"
+#             break
+
+#         else:
+#             a= "Number Is Prime Number!!!!!"
+# print(a)
+
+
+# Question 15 Print day of the week based on a number (1–7).
+
+# Day = (input("Enter A Number To Choose Day Between 0-7:"))
+
+# if Day =='1':
+#     print("You Choose Monday")
+
+# elif Day == '2':
+#     print("You Choose TuesDay")
+
+# elif Day == '3':
+#     print("You Choose WedNasDay")
+
+# elif Day == '4':
+#     print("You Choose ThursDay")
+
+# elif Day == '5':
+#     print("You Choose FriDay")
+
+# elif Day == '6':
+#     print("You Choose SaturDay")
+
+# elif Day =='7':
+#     print("You Choose Sunday")
+
+# else:
+#     print("Choose Between 1 - 7")
+
+
+
+# Question 16 Check if a year is a century year.
+
+# Year = int(input("Enter A Year To Check Century Year Or Not:"))
+
+# if Year % 100 == 0:
+#     print(Year , 'Is Century Year!!!')
+# else:
+#     print(Year , 'Is Not Century Year!!!')
