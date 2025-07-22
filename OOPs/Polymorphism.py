@@ -66,4 +66,4 @@ class MyClass:
     def hello(self):
         print("Hello")
 
-MyClass.hello() 
+MyClass().hello()
