@@ -1,3 +1,11 @@
+<!-- 🔥 Tagline -->
+<p align="center">
+  <b>🚀 Learning Python the Right Way – From Basics to File Handling!</b><br/>
+  <i>Guided by Vikash Yadu Sir at Yashvi Tech</i>
+</p>
+
+
+
 # 🐍 Python Learning Journey
 
 This repository contains all my Python learning materials, notes, practice codes, and important resources.  
