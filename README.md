@@ -4,9 +4,8 @@
   <i>Guided by Vikash Yadu Sir at Yashvi Tech</i>
 </p>
 
-<!-- 🐍 SVG Banner -->
 <p align="center">
-  <img src="./python-banner.svg" alt="Python Banner" />
+  <img src="Banner.svg" alt="Banner" width="600"/>
 </p>
 # 🐍 Python Learning Journey
 
@@ -16,7 +15,7 @@ I'm learning **Python** under the mentorship of **Vikash Yadu Sir** at **Yashvi 
 ## 👨‍🏫 Instructor
 **Vikash Yadu Sir**  
 Mentor at **Yashvi Tech**  
-A highly skilled and supportive guide helping us master Python from basics to advanced.
+A highly skilled and supportive guide helping us master Python from the basics to the advanced.
 
 ---
 
