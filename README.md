@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="Banner.png" alt="Banner" width="100vw"/>
+  <img src="Banner.png" alt="Banner" width="100%"/>
 </p>
 # 🐍 Python Learning Journey
 
